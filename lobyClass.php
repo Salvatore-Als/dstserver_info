@@ -10,7 +10,7 @@
 		private $_zone = null;
 		private $_lobbyFiles = array();
 
-		// $zone permet de cibler la recherche pour éviter de lire dans tout les json
+		// $zone permet de cibler la recherche pour éviter de lire dans tous les json
 		function __construct($zone) {
 			$this->_zone = $zone;
 		}
